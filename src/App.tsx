@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
 
 import { QueryClient, QueryClientProvider } from "react-query";
+import Dates from "./pages/Dates";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,10 @@ const routes = [
         <Dashboard />
       </QueryClientProvider>
     ),
+  },
+  {
+    path: "/dates",
+    element: <Dates />,
   },
 ];
 
