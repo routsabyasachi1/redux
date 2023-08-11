@@ -14,7 +14,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link to="/contact" className="flex items-center p-2">
-              <span className="text-white">Contacts</span>
+              <span className="text-white">Contact</span>
             </Link>
           </li>
           <li>
